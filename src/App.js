@@ -43,9 +43,7 @@ function App() {
   }, [search])
 
   return (
-    <div className="wrapper" style={{ 
-      backgroundImage: {background}
-    }} >
+    <div className="wrapper" >
       <header>
         <img src="../img/logo.svg" alt="" className="logo" />
         <span>React weather</span>
